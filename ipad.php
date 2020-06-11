@@ -4,6 +4,7 @@
 	<meta charset="utf-8"/>
 	<title>iPads: lojONa</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="imagens/lojona.ico" >
 </head>
 <body>
 	<div class="interface">
@@ -13,12 +14,12 @@
 		<div class="produtos_categoria">
 			<h3>Todos os iPads</h3>
 			<div class="janela_produto">
-				<a href="404.php"><img src="imagens/produtos/ipad/ipad-mini.png" title="iPad Mini"></a>
+				<a href="ipadmini.php"><img src="imagens/produtos/ipad/ipad-mini.png" title="iPad Mini"></a>
 				<div class="detalhes_produto">
 					<h2>iPad Mini 5 256GB Cinza Espacial</h2>
 					<h1>R$ 3.599,90</h1>
 				</div>
-				<a class="janela_produto_detalhes" href="404.php" title="Ver detalhes"><h2>Ver detalhes</h2></a>
+				<a class="janela_produto_detalhes" href="ipadmini.php" title="Ver detalhes"><h2>Ver detalhes</h2></a>
 			</div>
 
 			<div class="janela_produto">

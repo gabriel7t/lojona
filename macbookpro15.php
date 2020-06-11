@@ -1,6 +1,6 @@
 <?php
 	require_once('processos/conexao.php');
-	$codigo = '1';
+	$codigo = '5';
 	$consulta = "SELECT * FROM produtos WHERE codigo = '$codigo' ";
 
 	$tab1 = $conexao->query($consulta) or die ("deu erro");
@@ -13,7 +13,7 @@
 <html>
 <head lang="pt-br">
 	<meta charset="utf-8"/>
-	<title>iPhone 11: lojONa</title>
+	<title>MacBook Pro 15": lojONa</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -24,7 +24,7 @@
 			
 			<div class="detalhes_produto_topo">
 				<div class="detalhes_produto_imagem">
-					<img src="imagens/produtos/iphone/iphone11.png">
+					<img src="imagens/produtos/macbook/macbook-pro15.png">
 				</div>
 				
 				<div class="detalhes_produto_lateral">
@@ -44,7 +44,7 @@
 			<div class="detalhes_produto_secao">
 				<div class="informacao_produto_info">
 					
-					<p>O iPhone 11 tem novo sistema de câmera dupla para capturar mais do que você vê e ama. Ele vem com o chip mais rápido em um smartphone. E bateria para o dia todo: você faz muito e recarrega pouco. Também tem a melhor qualidade de vídeo em um celular. Assim, suas memórias ficam inesquecíveis de verdade. Novo sistema de câmera dupla. Amplie os horizontes das suas fotos indo da câmera grande-angular para a novíssima ultra-angular. Também veja e capture mais com a interface redesenhada, que usa a câmera ultra-angular para mostrar o que está fora do enquadramento. E descubra como gravar e editar vídeos agora é tão simples quanto tirar fotos. É a câmera mais popular do mundo, com uma nova perspectiva. Grave e edite vídeos com a maior qualidade em um smartphone. Ambas as câmeras do iPhone 11 gravam vídeos 4K nítidos a 60 qps. A nova câmera ultra-angular captura 4x mais de qualquer cena e é ideal para objetos em movimento, como seu cachorro correndo no parque. E, com o zoom de áudio, o som se aproxima junto com a imagem. Perfeito para filmar a apresentação de fim de ano na escola dos seus filhos. Além disso, editar vídeos ficou tão simples quanto editar fotos. Nova câmera ultra-angular. Pense grande, muito grande. Com a nova câmera ultra-angular, você captura até quatro vezes mais de cada imagem. As paisagens vão parecer não ter fim. Os shows vão revelar o tamanho da multidão. E as fotos de férias vão mostrar a família inteira incluindo as vistas que vocês viajaram tanto para ver.
+					<p>O MacBook Pro 2019 Apple leva o notebook para outro patamar de eficiência e mobilidade. Com recursos como processadores e memória de alto desempenho, chips gráficos avançados e armazenamento ultrarrápido, todas as suas ideias ganham fôlego para ir muito mais longe. Especificações Técnicas Processador: Intel Core i7 (8ª Geração)Velocidade: 2.2Ghz até 4.3Ghz com turbo boost (9MB) Memória RAM: 16GB - DDR4 (onboard)Expansível até: 32GB Armazenamento: SSD 512GBTela: 15" Retina - LED-backlit com IPS technologyResolução: 2880x1800Gráfico: AMD Radeon PRO 560X - 2GB GDDR5 Touch Bar: Integrado com Touch ID Conectividade: 802.11 ac Wireless - IEEE 802.11 a/b/g/n/ Bluetooth 5.0 Portas: 04x USB
 					</p>
 				</div>			
 				<h1>Características Técnicas</h1>
@@ -52,55 +52,52 @@
 				
 					<div class="informacao_produto_info">
 						<h2>Armazenamento</h2>
-						<p>128GB de Armazenamento (não expansível)</p>
+						<p>512GB de Armazenamento (não expansível)</p>
 					</div>
-				
-
+						
 					<div class="informacao_produto_info">
 						<h2>Tamanho e peso</h2>
-						<p>Altura: 150.9 mm</p>
-						<p>Largura: 75.7 mm</p>
-						<p>Espessura: 8.3 mm</p>
-						<p>Peso: 226 gr</p>
-						<p>Brilho máximo de 625 nits</p>
-					</div>
-
-					<div class="informacao_produto_info">
-						<h2>Tela</h2>
-						<p>Tela Liquid Retina HD</p>
-						<p>LCD 6.1" IPS</p>
-						<p>Resolução de 1792 x 828 pixels a 326 ppp</p>
-					</div>
-
-					<div class="informacao_produto_info">
-						<h2>Chipset</h2>
-						<p>A13 Bionic</p>
-						<p>Memória RAM 4GB</p>
+						<p>Altura: 24,07 cm</p>
+						<p>Largura: 34,93 cm</p>
+						<p>Espessura: 1,55 cm</p>
+						<p>Peso: 1,83 kg</p>
 					</div>
 				
 					<div class="informacao_produto_info">
-						<h2>Armazenamento</h2>
-						<p>128GB de Armazenamento (não expansível)</p>
+						<h2>Tela</h2>
+						<p>Tela Retina LED</p>
+						<p>LCD 16,6" IPS</p>
+						<p>Resolução de 2880x1800 pixels</p>
 					</div>
-
+								
+					<div class="informacao_produto_info">
+						<h2>Chipset</h2>
+						<p>Intel Core i7 @ 2.2 GHz</p>
+                        <p>Memória RAM 16GB</p>
+                        <p>Placa de Vídeo: Radeon Pro 455 - 2 GB GDDR5</p>
+					</div>
+												
+					<div class="informacao_produto_info">
+						<h2>Armazenamento</h2>
+						<p>512GB de Armazenamento SSD</p>
+					</div>
+								
 					<div class="informacao_produto_info">
 						<h2>Sensores</h2>
-						<p>Face ID</p>
-						<p>Barômetro</p>
-						<p>Giroscópio</p>
-						<p>Acelerômetro</p>
-						<p>Sensor de Proximidade</p>
+						<p>Bluetooth 4.2</p>
+						<p>Wireless Wi-Fi 802.11ac</p>
+						<p>Touch ID</p>
 						<p>Sensor de Luz ambiente</p>
 					</div>
-
+							
 					<div class="informacao_produto_info">
 						<h2>Conteúdo da caixa</h2>
-						<p>iPhone 11</p>
-						<p>EarPods com conector Lightning</p>
-						<p>Cabo Lightning para USB</p>
-						<p>Carregador USB</p>
+						<p>Macbook Pro</p>
+						<p>Cabo Carregador USB-C 2m</p>
+						<p>Carregador USB 87W</p>
 						<p>Documentação Apple</p>
 					</div>
+				
 			</div>
 		</div>
 	</div>

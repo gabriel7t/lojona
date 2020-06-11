@@ -4,6 +4,7 @@
 	<meta charset="utf-8"/>
 	<title>Acessórioss: lojONa</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="imagens/lojona.ico" >
 </head>
 <body>
 	<div class="interface">
@@ -13,12 +14,12 @@
 			<h3>Todos os Acessórios Apple</h3>
 			
 			<div class="janela_produto">
-				<a href="404.php"><img src="imagens/produtos/acessorios/lightning.png" title="Cabo Lightning"></a>
+				<a href="lightning.php"><img src="imagens/produtos/acessorios/lightning.png" title="Cabo Lightning"></a>
 				<div class="detalhes_produto">
 					<h2>Cabo Lightning Original 1m</h2>
 					<h1>R$ 89,90</h1>
 				</div>
-				<a class="janela_produto_detalhes" href="404.php" title="Ver detalhes"><h2>Ver detalhes</h2></a>
+				<a class="janela_produto_detalhes" href="lightning.php" title="Ver detalhes"><h2>Ver detalhes</h2></a>
 			</div>
 
 			<div class="janela_produto">
@@ -31,12 +32,12 @@
 			</div>
 
 			<div class="janela_produto">
-				<a href="404.php"><img src="imagens/produtos/acessorios/airpods.png" title="Apple Airpods"></a>
+				<a href="airpods.php"><img src="imagens/produtos/acessorios/airpods.png" title="Apple Airpods"></a>
 				<div class="detalhes_produto">
 					<h2>Apple Airpods</h2>
 					<h1>R$ 899,90</h1>
 				</div>
-				<a class="janela_produto_detalhes" href="404.php" title="Ver detalhes"><h2>Ver detalhes</h2></a>
+				<a class="janela_produto_detalhes" href="airpods.php" title="Ver detalhes"><h2>Ver detalhes</h2></a>
 			</div>
 
 			<div class="janela_produto">

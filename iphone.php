@@ -4,6 +4,7 @@
 	<meta charset="utf-8"/>
 	<title>iPhones: lojONa</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="imagens/lojona.ico" >
 </head>
 <body>
 	<div class="interface">
@@ -23,12 +24,12 @@
 			</div>
 			
 			<div class="janela_produto">
-				<a href="404.php"><img src="imagens/produtos/iphone/iphone11-pro.png" title="iPhone 11 Pro"></a>
+				<a href="iphone11pro.php"><img src="imagens/produtos/iphone/iphone11-pro.png" title="iPhone 11 Pro"></a>
 				<div class="detalhes_produto">
 					<h2>iPhone 11 Pro 512GB Cinza Espacial</h2>
 					<h1>R$ 7.299,90</h1>
 				</div>
-				<a class="janela_produto_detalhes" href="404.php" title="Ver detalhes"><h2>Ver detalhes</h2></a>
+				<a class="janela_produto_detalhes" href="iphone11pro.php" title="Ver detalhes"><h2>Ver detalhes</h2></a>
 			</div>
 			
 			<div class="janela_produto">

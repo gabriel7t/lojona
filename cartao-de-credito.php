@@ -1,9 +1,16 @@
+<?php
+	if (session_status() == PHP_SESSION_NONE) {
+		session_start();
+	}
+	include('processos/valida_login.php');
+?>
 <!DOCTYPE html>
 <html>
 <head lang="pt-br">
 	<meta charset="utf-8"/>
 	<title>Cadastrar Cartão: lojONa</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="imagens/lojona.ico" >
 </head>
 <body>
 	<div class="interface">
@@ -22,7 +29,7 @@
 		</div>
 
 		<div class="cartao_formulario">
-		<form>
+		<form method="POST" action="processos/armazena_cartao.php">
 			<h3>*Obrigatório</h3>
 			<p>
 				<label for="num_card">Número do Cartão*</label>
@@ -36,8 +43,8 @@
 
 			<p>
 				<label for="num_card">Validade (MM/AA)*</label>
-            	<input class="cartao_formulario_campo_menor" name="1val_card" required="required" size="2" maxlength="2" type="text" placeholder="DD" />
-            	<input class="cartao_formulario_campo_menor" name="2val_card" required="required" size="2" maxlength="2" type="text" placeholder="AA" />
+            	<input class="cartao_formulario_campo_menor" name="val1_card" required="required" size="2" maxlength="2" type="text" placeholder="DD" />
+            	<input class="cartao_formulario_campo_menor" name="val2_card" required="required" size="2" maxlength="2" type="text" placeholder="AA" />
 			</p>
 
 			<p>
@@ -48,10 +55,12 @@
 			<p>
 				Parcelas: <input type="number" value="1" name="quantidade" min="1" max="12">
 			</p>
+
+			<button type="submit" value="Continuar">Continuar</button>
 		</form>
 			
 		</div>
-		<a href="login.php"> Continuar</a>
+		
 	</div>
 	</div>
 		<?php include "rodape.php"; ?>

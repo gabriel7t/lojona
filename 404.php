@@ -5,6 +5,7 @@
 	<meta charset="utf-8"/>
 	<title>lojONa: As maçãs que você precisa</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="imagens/lojona.ico" >
 </head>
 <body>
 	<div class="interface">

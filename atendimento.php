@@ -4,6 +4,7 @@
 	<meta charset="utf-8"/>
 	<title>Atendimento: lojONa</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="imagens/lojona.ico" >
 </head>
 <body>
 <?php include "cabecalho.php"; ?>

@@ -1,6 +1,6 @@
 <?php
-	require_once('processos/conexao.php');
-	$codigo = '1';
+    require_once('processos/conexao.php');
+    $codigo = '4';
 	$consulta = "SELECT * FROM produtos WHERE codigo = '$codigo' ";
 
 	$tab1 = $conexao->query($consulta) or die ("deu erro");
@@ -13,7 +13,7 @@
 <html>
 <head lang="pt-br">
 	<meta charset="utf-8"/>
-	<title>iPhone 11: lojONa</title>
+	<title>iPad Mini: lojONa</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -24,15 +24,15 @@
 			
 			<div class="detalhes_produto_topo">
 				<div class="detalhes_produto_imagem">
-					<img src="imagens/produtos/iphone/iphone11.png">
+					<img src="imagens/produtos/ipad/ipad-mini.png">
 				</div>
 				
 				<div class="detalhes_produto_lateral">
 					<h1><?php echo $descricao ?></h1>
 					<div class="detalhes_produto_preco">
 						<h1>R$ <?php echo  $preco ?> à vista</h1>
-						<h2>ou 12x de <?php echo $parcela ?> SEM JUROS</h2>
-						<form method="POST" action="processos/cria_carrinho.php">
+                        <h2>ou 12x de <?php echo $parcela ?> SEM JUROS</h2>
+                    <form method="POST" action="processos/cria_carrinho.php">
                         <input value="<?php echo $codigo; ?>" type="number" name="codigo_pedido" hidden><br>
                         <button type="submit" value="Adicionar">Adicionar ao carrinho</a>
                     </form>
@@ -44,32 +44,24 @@
 			<div class="detalhes_produto_secao">
 				<div class="informacao_produto_info">
 					
-					<p>O iPhone 11 tem novo sistema de câmera dupla para capturar mais do que você vê e ama. Ele vem com o chip mais rápido em um smartphone. E bateria para o dia todo: você faz muito e recarrega pouco. Também tem a melhor qualidade de vídeo em um celular. Assim, suas memórias ficam inesquecíveis de verdade. Novo sistema de câmera dupla. Amplie os horizontes das suas fotos indo da câmera grande-angular para a novíssima ultra-angular. Também veja e capture mais com a interface redesenhada, que usa a câmera ultra-angular para mostrar o que está fora do enquadramento. E descubra como gravar e editar vídeos agora é tão simples quanto tirar fotos. É a câmera mais popular do mundo, com uma nova perspectiva. Grave e edite vídeos com a maior qualidade em um smartphone. Ambas as câmeras do iPhone 11 gravam vídeos 4K nítidos a 60 qps. A nova câmera ultra-angular captura 4x mais de qualquer cena e é ideal para objetos em movimento, como seu cachorro correndo no parque. E, com o zoom de áudio, o som se aproxima junto com a imagem. Perfeito para filmar a apresentação de fim de ano na escola dos seus filhos. Além disso, editar vídeos ficou tão simples quanto editar fotos. Nova câmera ultra-angular. Pense grande, muito grande. Com a nova câmera ultra-angular, você captura até quatro vezes mais de cada imagem. As paisagens vão parecer não ter fim. Os shows vão revelar o tamanho da multidão. E as fotos de férias vão mostrar a família inteira incluindo as vistas que vocês viajaram tanto para ver.
+					<p>O iPad mini sempre foi queridinho pelo seu tamanho e capacidade. Agora ele vem com tudo para ser ainda mais adorado: chip A12 Bionic com Neural Engine, tela Retina de 7,9 polegadas com True Tone e compatibilidade com o Apple Pencil para você anotar suas melhores ideias assim que elas surgirem. iPad mini. De mini, só tem o tamanho...- Marca: Apple .- Código do fabricante: MUXD2BZ/A.- Sistema Operacional + Versão: iOS 12.- Loja de Aplicativos: App Store.- Tipo de Processador: Chip A12 Bionic.- Conectividade: GSM, GPRS, EDGE, 3G, 4G, Wi-Fi, Bluetooth e Roteador Wi-Fi.- E-mail: Sim.- Push E-mail: Sim.- Quantidade de Chip: 1.- Tipo de Chip: Nano.- USB: Lightning.- NFC: Não.- Função Telefone: Sim.- Sensores: Touch ID, Giroscópio de três eixos, Acelerômetro, Barômetro e Sensor de luz ambiente.- Tamanho do Display: 7,9".- Número de Pixels: 640 x 480 pixels.- Câmera traseira: Resolução 8 MP.- Câmera frontal resolução: 7 MP.- Gravação de Vídeo: Sim.- Resolução de reprodução: 2048 x 1536.- Gravação de vídeo: HD de 1080p.- Reprodução de Música: Sim.- MP3: Sim.- GPS: Sim.- Memória Interna: 256 GB.- Suporte a Cartão de Memória: Não.- Memória RAM: 256 GB.- Tipo de Bateria: Polímero de lítio.- Voltagem: Bi-Volt.- Conteúdo da Caixa: iPad Mini Wi-Fi + Cellular 256GB, Cabo Carregador USB-C, Carregador USB-C de 18W.- Dimensões do Aparelho (cm): 20.320 x 13.480 x 0.610.- Peso do Aparelho (g): 300
 					</p>
 				</div>			
 				<h1>Características Técnicas</h1>
 
-				
-					<div class="informacao_produto_info">
-						<h2>Armazenamento</h2>
-						<p>128GB de Armazenamento (não expansível)</p>
-					</div>
-				
-
 					<div class="informacao_produto_info">
 						<h2>Tamanho e peso</h2>
-						<p>Altura: 150.9 mm</p>
-						<p>Largura: 75.7 mm</p>
-						<p>Espessura: 8.3 mm</p>
-						<p>Peso: 226 gr</p>
-						<p>Brilho máximo de 625 nits</p>
+						<p>Altura: 20.9 cm</p>
+						<p>Largura: 13.7 cm</p>
+						<p>Espessura: 6.3 cm</p>
+						<p>Peso: 300 g</p>
 					</div>
 
 					<div class="informacao_produto_info">
 						<h2>Tela</h2>
 						<p>Tela Liquid Retina HD</p>
-						<p>LCD 6.1" IPS</p>
-						<p>Resolução de 1792 x 828 pixels a 326 ppp</p>
+						<p>LCD 7,9" IPS</p>
+						<p>Resolução de 640 x 480</p>
 					</div>
 
 					<div class="informacao_produto_info">
@@ -80,12 +72,12 @@
 				
 					<div class="informacao_produto_info">
 						<h2>Armazenamento</h2>
-						<p>128GB de Armazenamento (não expansível)</p>
+						<p>256GB de Armazenamento (não expansível)</p>
 					</div>
 
 					<div class="informacao_produto_info">
 						<h2>Sensores</h2>
-						<p>Face ID</p>
+						<p>Touch ID</p>
 						<p>Barômetro</p>
 						<p>Giroscópio</p>
 						<p>Acelerômetro</p>
@@ -95,7 +87,7 @@
 
 					<div class="informacao_produto_info">
 						<h2>Conteúdo da caixa</h2>
-						<p>iPhone 11</p>
+						<p>iPad Mini 256gb</p>
 						<p>EarPods com conector Lightning</p>
 						<p>Cabo Lightning para USB</p>
 						<p>Carregador USB</p>
