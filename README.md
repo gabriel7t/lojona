@@ -1,10 +1,10 @@
 # lojona
 Desenvolvimento Web
 
-Victor Lincoln Ferreira de Souza
-Camila Brenda Sales Barcelar
-Gabriel Andrade de Abreu
-Luis Amâncio de Souza Neto
+Victor Lincoln Ferreira de Souza   
+Camila Brenda Sales Barcelar   
+Gabriel Andrade de Abreu   
+Luis Amâncio de Souza Neto   
 
 Avaliação Parcial ARE 2  - CIM05S1
 CENTRO UNIVERSITÁRIO DO NORTE - UNINORTE/SER 
@@ -31,41 +31,41 @@ Formas de Avaliação:
 Boa noite prof jessica, para facilitar você se encontrar no meio dessa bagunça, aqui está os caminhos dos arquivos que contêm cada um dos requisitos
 
 CADASTRAR (INSERT): 
-processos/cadastro_cliente.php  
-processos/cadastro_endereco.php 
-processos/armazena_cartao.php 
-processos/cria_carrinho.php 
-processos/cadastra_compra.php 
+processos/cadastro_cliente.php   
+processos/cadastro_endereco.php  
+processos/armazena_cartao.php  
+processos/cria_carrinho.php  
+processos/cadastra_compra.php  
 
 PESQUISAR (SELECT): 
-processos/login.php 
-processos/cadastra_compra.php 
-airpods.php 
-avanca_cartao.php 
-cabecalho.php 
-carrinho.php  
-editar_info_form.php  
-ipadmini.php  
-iphone11.php  
-iphone11pro.php 
-lightning.php 
-macbookpro15.php  
-pedido_realizado.php  
-resultado_pesquisa.php  
-tela_usuario.php  
+processos/login.php    
+processos/cadastra_compra.php  
+airpods.php  
+avanca_cartao.php  
+cabecalho.php  
+carrinho.php   
+editar_info_form.php   
+ipadmini.php   
+iphone11.php   
+iphone11pro.php    
+lightning.php  
+macbookpro15.php   
+pedido_realizado.php   
+resultado_pesquisa.php   
+tela_usuario.php   
 
 ALTERAR (UPDATE): 
-processos/adiciona_parcelas.php 
-processos/armazena_cartao.php 
-processos/editar_info.php 
+processos/adiciona_parcelas.php    
+processos/armazena_cartao.php  
+processos/editar_info.php  
 
 EXCLUIR (DELETE):   
-processos/adiciona_parcelas.php 
-processos/armazena_cartao.php 
-processos/remover_carrinho.php  
+processos/adiciona_parcelas.php  
+processos/armazena_cartao.php  
+processos/remover_carrinho.php   
 
 LOGIN:  
-tela_login.php  
-processos/login.php 
-processos/valida_login.php  
-processos/logout.php  
+tela_login.php   
+processos/login.php  
+processos/valida_login.php   
+processos/logout.php   
