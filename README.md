@@ -1,6 +1,11 @@
 # lojona
 Desenvolvimento Web
 
+Victor Lincoln Ferreira de Souza
+Camila Brenda Sales Barcelar
+Gabriel Andrade de Abreu
+Luis Amâncio de Souza Neto
+
 Avaliação Parcial ARE 2  - CIM05S1
 CENTRO UNIVERSITÁRIO DO NORTE - UNINORTE/SER 
 ESCOLA DE EXATAS
